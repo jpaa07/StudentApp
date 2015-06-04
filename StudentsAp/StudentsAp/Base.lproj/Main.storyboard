@@ -42,9 +42,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="emh-5O-in5">
-                                <rect key="frame" x="-28" y="20" width="255" height="330"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaQ-XF-Vyp">
+                                <rect key="frame" x="80" y="133" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33666563189999998" blue="0.34029502969999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -99,9 +102,6 @@
                                     <action selector="btnSalir:" destination="3yD-lX-umu" eventType="touchUpInside" id="r3l-av-XPZ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="2tl-xX-8Fz">
-                                <rect key="frame" x="232" y="0.0" width="105" height="114"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpL-Ja-s3q">
                                 <rect key="frame" x="79" y="293" width="91" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -114,6 +114,12 @@
                                     <segue destination="3W7-YQ-jsH" kind="show" id="tAb-W7-ah7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALw-R6-QvR">
+                                <rect key="frame" x="248" y="20" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33666563189999998" blue="0.34029502969999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -156,9 +162,6 @@
                                     <action selector="btnSalir:" destination="3qd-da-dAQ" eventType="touchUpInside" id="oEn-TM-Zmu"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="svm-J3-s8u">
-                                <rect key="frame" x="238" y="36" width="106" height="151"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIf-rj-Rbj">
                                 <rect key="frame" x="140" y="226" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -190,6 +193,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bievenid@," textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlR-PR-GbD">
                                 <rect key="frame" x="88" y="106" width="145" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EIq-vx-Qwe">
+                                <rect key="frame" x="241" y="57" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -228,9 +237,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="YSP-e6-Vgl">
-                                <rect key="frame" x="232" y="53" width="105" height="112"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASs-PZ-Few">
                                 <rect key="frame" x="70" y="187" width="162" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -277,6 +283,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unD-1Q-ilN">
+                                <rect key="frame" x="253" y="58" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33666563189999998" blue="0.34029502969999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -304,9 +316,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="z6S-2b-vnY">
-                                <rect key="frame" x="236" y="47" width="105" height="112"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxh-EN-3ok">
                                 <rect key="frame" x="88" y="179" width="145" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -407,9 +416,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="mCi-rq-bkL">
-                                <rect key="frame" x="232" y="0.0" width="100" height="112"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gm-w7-ETN">
                                 <rect key="frame" x="84" y="248" width="76" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -433,6 +439,12 @@
                                     <action selector="btnSalir:" destination="F0V-EI-q8x" eventType="touchUpInside" id="PlP-rU-75T"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ir6-6c-LSP">
+                                <rect key="frame" x="243" y="15" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33666563189999998" blue="0.34029502969999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -504,9 +516,6 @@
                                     <segue destination="Dwp-Gv-36g" kind="show" id="G2z-wv-zaN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="YQb-Iv-leh">
-                                <rect key="frame" x="237" y="44" width="100" height="128"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sX5-0i-TsT">
                                 <rect key="frame" x="122" y="348" width="46" height="30"/>
                                 <state key="normal" title="Salir">
@@ -526,6 +535,12 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="xxxxx" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7G-DR-g9k">
                                 <rect key="frame" x="68" y="136" width="210" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOy-QN-l0U">
+                                <rect key="frame" x="232" y="64" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -587,9 +602,12 @@
                                     <segue destination="TAA-OR-bD0" kind="show" id="1dp-3s-ARF"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="rDh-g4-Gxx">
-                                <rect key="frame" x="236" y="52" width="105" height="116"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91f-ej-eou">
+                                <rect key="frame" x="227" y="72" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33666563189999998" blue="0.34029502969999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -678,9 +696,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="nNq-bd-nQx">
-                                <rect key="frame" x="235" y="55" width="105" height="116"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33666563189999998" blue="0.34029502969999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -761,9 +776,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="6uv-Fp-2cr">
-                                <rect key="frame" x="236" y="72" width="105" height="116"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yj0-R9-Xeh">
                                 <rect key="frame" x="101" y="326" width="98" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -883,9 +895,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="I8t-xw-njd">
-                                <rect key="frame" x="238" y="58" width="105" height="116"/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cedula Estudiante" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="goi-sY-v7g">
                                 <rect key="frame" x="71" y="128" width="168" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -931,12 +940,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cedula Estudiante" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tpZ-dn-qAx">
-                                <rect key="frame" x="63" y="108" width="184" height="30"/>
+                                <rect key="frame" x="37" y="103" width="184" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ait-bo-bZi">
-                                <rect key="frame" x="115" y="162" width="96" height="30"/>
+                                <rect key="frame" x="89" y="157" width="96" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Buscar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1025,14 +1034,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="--------" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLK-vw-78c">
-                                <rect key="frame" x="130" y="146" width="174" height="21"/>
+                                <rect key="frame" x="104" y="141" width="174" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="7qf-Az-FXe">
-                                <rect key="frame" x="237" y="51" width="105" height="116"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contraseña" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S07-4X-qVI">
                                 <rect key="frame" x="23" y="433" width="104" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1104,9 +1110,6 @@
                                     <segue destination="sxc-40-B3P" kind="show" id="YTW-Mf-Hue"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="jJg-qg-3nE">
-                                <rect key="frame" x="238" y="46" width="98" height="107"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKx-J1-9Wi">
                                 <rect key="frame" x="80" y="255" width="156" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -1129,6 +1132,12 @@
                                     <segue destination="u6z-qi-VhF" kind="show" id="UV4-0x-TWt"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K0E-tM-tvQ">
+                                <rect key="frame" x="240" y="64" width="99" height="99"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="101"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33666563189999998" blue="0.34029502969999997" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -1228,9 +1237,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="krP-6j-WSJ">
-                                <rect key="frame" x="234" y="50" width="105" height="102"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="---------" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQM-XM-uyh">
                                 <rect key="frame" x="11" y="451" width="299" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1371,9 +1377,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="oKb-ZP-65A">
-                                <rect key="frame" x="241" y="46" width="105" height="116"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Estudiante" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Se-k6-d8M">
                                 <rect key="frame" x="124" y="80" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1523,9 +1526,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dwl-nV-ijI">
-                                <rect key="frame" x="243" y="44" width="105" height="116"/>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Cedula Estudiante" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jiq-2q-EHr">
                                 <rect key="frame" x="78" y="98" width="180" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1581,7 +1581,4 @@
             <point key="canvasLocation" x="1194" y="805"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="student_telework_logo_main_by_rezamolaei-d4ug7qm.png" width="894" height="894"/>
-    </resources>
 </document>

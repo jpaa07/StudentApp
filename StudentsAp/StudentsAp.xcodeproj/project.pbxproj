@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		468722231B1E897A00779BD2 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png in Resources */ = {isa = PBXBuildFile; fileRef = 468722221B1E897A00779BD2 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png */; };
+		070202691B20D37E00EA25A5 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png in Resources */ = {isa = PBXBuildFile; fileRef = 070202651B20D37E00EA25A5 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png */; };
 		46C946841B1CBD8800DC3B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C946831B1CBD8800DC3B01 /* main.m */; };
 		46C946871B1CBD8800DC3B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C946861B1CBD8800DC3B01 /* AppDelegate.m */; };
 		46C9468A1B1CBD8800DC3B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C946891B1CBD8800DC3B01 /* ViewController.m */; };
@@ -45,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		468722221B1E897A00779BD2 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "student_telework_logo_main_by_rezamolaei-d4ug7qm.png"; path = "../../../../Downloads/StudentsApp-3-2/Students/Students/Recursos/student_telework_logo_main_by_rezamolaei-d4ug7qm.png"; sourceTree = "<group>"; };
+		070202651B20D37E00EA25A5 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "student_telework_logo_main_by_rezamolaei-d4ug7qm.png"; sourceTree = "<group>"; };
 		46C9467E1B1CBD8800DC3B01 /* StudentsAp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentsAp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C946821B1CBD8800DC3B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46C946831B1CBD8800DC3B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -113,18 +113,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4687221F1B1E888900779BD2 /* carpeta sin título */ = {
+		070202611B20D37E00EA25A5 /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
-				468722221B1E897A00779BD2 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png */,
+				070202651B20D37E00EA25A5 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png */,
 			);
-			path = "carpeta sin título";
+			path = Recursos;
 			sourceTree = "<group>";
 		};
 		46C946751B1CBD8800DC3B01 = {
 			isa = PBXGroup;
 			children = (
-				4687221F1B1E888900779BD2 /* carpeta sin título */,
+				070202611B20D37E00EA25A5 /* Recursos */,
 				46C946A71B1CBDA300DC3B01 /* libsqlite3.dylib */,
 				46C946801B1CBD8800DC3B01 /* StudentsAp */,
 				46C9469A1B1CBD8800DC3B01 /* StudentsApTests */,
@@ -342,9 +342,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468722231B1E897A00779BD2 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png in Resources */,
 				46C9468D1B1CBD8800DC3B01 /* Main.storyboard in Resources */,
 				46C946921B1CBD8800DC3B01 /* LaunchScreen.xib in Resources */,
+				070202691B20D37E00EA25A5 /* student_telework_logo_main_by_rezamolaei-d4ug7qm.png in Resources */,
 				46C9468F1B1CBD8800DC3B01 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
